@@ -52,7 +52,7 @@ public class ContentController {
      * 会被恶意使用，而恶意清除es数据。由于作者，为了方便
      * 清除es中的数据，es中的数据没有实际意义，所以设定了该接口。
      */
-    @GetMapping(value = "/delall/113011es",produces="text/html;charset=utf-8")
+    @GetMapping(value = "/delall/es/hc",produces="text/html;charset=utf-8")
     public void delAllInfo(){
         contentService.delAllInfo();
     }
