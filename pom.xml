@@ -20,7 +20,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.1</version>
             <!--作用域是test，只能在test属性的包下使用 不写作用域则任何包下都可以使用-->
             <scope>test</scope>
         </dependency>
